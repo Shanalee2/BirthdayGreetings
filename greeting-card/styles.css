@@ -6,7 +6,6 @@ body {
     background: linear-gradient(to right, #ff99cc, #ffccff);
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    overflow: hidden;
 }
 
 .card {
@@ -34,18 +33,14 @@ body {
     padding: 20px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
-    border: 10px solid transparent;
-    background-clip: border-box;
 }
 
 .card-front {
-    background-color: #ffccff;
-    border-image: url('tulip-border.png') 30 round;
+    background: #ffccff;
 }
 
 .card-back {
-    background-color: #ff99cc;
-    border-image: url('tulip-border.png') 30 round;
+    background: #ff99cc;
     transform: rotateY(180deg);
 }
 
